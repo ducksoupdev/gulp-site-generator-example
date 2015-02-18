@@ -1,0 +1,24 @@
+{
+  "title": "Gulp static site generator example",
+  "description": "This is one example of how to use the static site generator",
+  "url": "http://ducksoupdev.co.uk",
+  "cover": "/images/P1010588-2.jpg",
+  "logo": "/images/logo_vertical_282x150.png",
+  "rss": "/rss.xml",
+  "maxItems": 6,
+  "concatJs": [
+    "./src/libs/jquery/dist/jquery.js",
+    "./src/libs/bootstrap-sass/assets/javascripts/bootstrap.js",
+    "./src/libs/holderjs/holder.js",
+    "./src/js/ie10-viewport-bug-workaround.js"
+  ],
+  "styleSheet": "style.css",
+  "authors": {
+    "Matt Levy": {
+      "image": "../images/matt2.jpg",
+      "name": "Matt Levy",
+      "location": "Herne Bay",
+      "bio": "Practicing the art of front-end development"
+    }
+  }
+}
