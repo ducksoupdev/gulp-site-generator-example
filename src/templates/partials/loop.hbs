@@ -1,3 +1,9 @@
+{{#each pages}}
+    <div class="blog-post">
+        <h2 class="blog-post-title"><a href="{{url}}">{{title}}</a></h2>
+        <p>{{{excerpt characters=230}}}...</p>
+    </div>
+{{/each}}
 {{#each posts}}
     <div class="blog-post">
         <h2 class="blog-post-title"><a href="{{url}}">{{title}}</a></h2>
