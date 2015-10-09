@@ -131,6 +131,15 @@ h6 {
 .blog-main {
   font-size: 18px;
   line-height: 1.5;
+
+  img {
+      max-width: 100%;
+      margin: 15px 0;
+  }
+}
+
+.blog-sidebar {
+    padding-top: 100px;
 }
 
 .sidebar-module {

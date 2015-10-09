@@ -6,7 +6,15 @@
 
     <div class="blog-header">
         <h1 class="blog-title">{{site.title}}</h1>
-        <p class="lead blog-description">{{site.description}}</p>
+        {{#if tag}}
+            <p>Posts tagged: {{tag}}</p>
+        {{else}}
+            {{#if dateStr}}
+                <p>Posts dated: {{dateStr}}</p>
+            {{else}}
+                <p class="lead blog-description">{{site.description}}</p>
+            {{/if}}
+        {{/if}}
     </div>
 
     <div class="row">
