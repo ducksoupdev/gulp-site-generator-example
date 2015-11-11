@@ -5,7 +5,7 @@
   "cover": "/images/P1010588-2.jpg",
   "logo": "/images/logo_vertical_282x150.png",
   "rss": "/rss.xml",
-  "maxItems": 6,
+  "maxItems": 5,
   "concatJs": [
     "./src/libs/jquery/dist/jquery.js",
     "./src/libs/bootstrap-sass/assets/javascripts/bootstrap.js",
@@ -20,5 +20,6 @@
       "location": "Herne Bay",
       "bio": "Practicing the art of front-end development"
     }
-  }
+  },
+  "testVar": "Hello world"
 }

@@ -1,2 +1,6 @@
 @import "../libs/bootstrap-sass/assets/stylesheets/bootstrap";
 @import "blog";
+
+.pagination-none {
+    display: none;
+}
